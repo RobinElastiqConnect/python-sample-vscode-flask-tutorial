@@ -36,9 +36,7 @@ steps:
   displayName: 'pytest'
 
  - script: |
-      # Install Flake8
       pip3 install --user flake8
-      # Install PyTest
       pip3 install --user pytest
     displayName: 'Install Flake8 and PyTest'
 
